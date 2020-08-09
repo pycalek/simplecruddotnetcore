@@ -24,7 +24,6 @@ namespace SimpleCrud.Database
                 entity.HasKey(e => e.EmployeeID);
 
                 entity.Property(e => e.EmployeeID)
-               .IsRequired(true)
                .ValueGeneratedOnAdd();
 
                 entity.Property(e => e.EmployeeNumber)
